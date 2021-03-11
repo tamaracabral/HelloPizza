@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="GET" action"C:\Users\TAMARA\Documents\PROJETO HTML">
+       
+       <fieldset>
+           <legend>Conta:</legend>
+        <div>
+            <label>Email: </label>
+            <input type="email" placeholder="Ex email@gmail.com" name="email" required minlength="15" maxlength="250" />
+           </div>
+           <label>Senha: </label>
+           <input type="password" name="senha" />
+       </div>       
+        </fieldset>
+                    
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <div>
+                <label>Nome: </label>
+                <input type="text" placeholder="Ex: Tamara" name="nome" required />
+            </div>
+            
+            <div>
+                <label>Telefone: </label>
+                <input type="tel" placeholder="Ex (99) 99999-9999" name="telefone" />
+            </div>
+            
+            <div>
+                <label>Sexo:</label>
+                <input type=radio value="masculino" name="sexo" checked />
+                <label>Masculino:</label>
+                <input type=radio value="feminino" name="sexo" />
+                <label>Feminino</label>
+            </div>
+    
+            <div>
+                <label>Data: </label>
+                <input type="date" name="data" />
+            </div>
+    
+            <div>
+                <label>Foto de Perfil:</label>
+                <input type="file" accept="image/*" name="image" /> 
+            </div>
+    
+        </fieldset>
+        
+        <fieldset>
+            <legend>Endereço:</legend>
+            <div>
+                <label>Endereço: </label>           
+                 <input type="text" name="endereço" required />
+            </div>
+    
+            <div>
+                <label>Complemento: </label>
+                <input type="text" name="complemento" />
+    
+                <div>
+                    <label>Numero:</label>
+                    <input type="number" min="1" max="9999" name="numero" />
+                </div>
+    
+                <div>
+                    <label>Cidade:</label>
+                    <input type="text" name="cidade" />
+                </div>
+    
+                <div>
+                    <label>Estado:</label>
+                    <select name="endereço_estado">
+                        <option value="AC">Acre</option>
+                        <option value="AL">Alagoas</option>
+                        <option value="AP">Amapá</option>    
+                        <option value="AM">Amazonias</option>
+                        <option value="BA">Bahia</option>
+                        <option value="CE">Ceará</option>
+                        <option value="DF">Distrito Federal</option>
+                        <option value="ES">Espirito Santos</option>
+                        <option value="GO">Goiania</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MS">Mato Grosso do Sul</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="PA">Pará</option>
+                        <option value="PB">Paraiba</option>
+                        <option value="PR">Paraná</option>
+                        <option value="PE">Pernanbuco</option>
+                        <option value="PI">Piauí</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="RO">Rondonia</option>
+                        <option value="RR">Roraima</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="SE">Sergipe</option>
+                        <option value="TO">Tocantins</option>
+                    </select>
+        </fieldset>
+
+           <fieldset>
+               <legend>Anúncio:</legend>
+               <div>
+                <label>Como você conheceu a Hello Pizza:</label>
+                <textarea name="como_conheceu_o_site" maxlength="255" placeholder="Explique pra gente como você conheceu a Hello Pizza"></textarea>
+            </div>
+        </div>
+        <input type="checkbox" checked name="receber_anuncio" />
+        <label>Desejo receber ofertas por e-mail</label> 
+    </div>
+           </fieldset>
+
+           <button type="submit">Enviar</button>
+
+    </form>
+</body>
+</html>
