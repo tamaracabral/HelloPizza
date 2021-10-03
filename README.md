@@ -1,2 +1,3 @@
-# hello
- Projeto em HTML do curso DevM.
+# Hello Pizza
+ 
+ Projeto em HTML do curso DevMedia.
